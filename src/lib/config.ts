@@ -25,7 +25,7 @@ const DEFAULT_CONFIG = {
   // 🔗 GOOGLE DRIVE
   // ===========================================
   google: {
-    clientId: '0jl44v62aqoasds37oani4prs1ihggb4.apps.googleusercontent.com',
+    clientId: '323932537067-0jl44v62aqoasds37oani4prs1ihggb4.apps.googleusercontent.com',
     clientSecret: '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',
     redirectUri: 'https://version11-pro.vercel.app/api/auth/google/callback',
   },
@@ -34,9 +34,9 @@ const DEFAULT_CONFIG = {
   // 🌐 APP
   // ===========================================
   app: {
-    name: 'Dokan POS Pro',
+    name: 'BD POS Premium',
     version: 'v10.1.0',
-    productionDomain: 'https://shopclient1.vercel.app/',
+    productionDomain: 'https://version11-pro.vercel.app',
   },
 };
 

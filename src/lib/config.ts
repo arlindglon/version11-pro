@@ -27,7 +27,7 @@ const DEFAULT_CONFIG = {
   google: {
     clientId: '0jl44v62aqoasds37oani4prs1ihggb4.apps.googleusercontent.com',
     clientSecret: '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',
-    redirectUri: 'https://shopclient1.vercel.app/api/auth/google/callback',
+    redirectUri: 'https://version11-pro.vercel.app/api/auth/google/callback',
   },
 
   // ===========================================

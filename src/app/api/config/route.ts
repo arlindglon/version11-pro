@@ -147,12 +147,12 @@ export function getDefaultConfig() {
   return {
     supabase_url: 'https://efyctxelttimqprmnskl.supabase.co',
     supabase_anon_key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVmeWN0eGVsdHRpbXFwcm1uc2tsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NDQyNTY3OCwiZXhwIjoyMDkwMDAxNjc4fQ.jXPNpbGbz2DzqWY1vTiFTy20-9gJxMs72gPZy9CpjLs',
-    google_client_id: '0jl44v62aqoasds37oani4prs1ihggb4.apps.googleusercontent.com',
+    google_client_id: '323932537067-0jl44v62aqoasds37oani4prs1ihggb4.apps.googleusercontent.com',
     google_client_secret: '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',
-    google_redirect_uri: 'https://version11-pro.vercel.app//api/auth/google/callback',
-    app_name: ' POS Premium ',
+    google_redirect_uri: 'https://version11-pro.vercel.app/api/auth/google/callback',
+    app_name: ' BD POS Premium ',
     app_version: 'v10.1.0',
-    production_domain: 'https://shopclient1.vercel.app',
+    production_domain: 'https://version11-pro.vercel.app',
   };
 }
 

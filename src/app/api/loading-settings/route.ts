@@ -16,25 +16,25 @@ export async function GET() {
     if (error) {
       console.error('Fetch loading settings error:', error);
       return NextResponse.json({
-        shopName: 'Dokan',
+        shopName: 'Bd Pos Premium',
         shopLogo: '',
-        shopBio: 'Smart Shop Management',
+        shopBio: 'Premium Quality Shop Management',
         loadingText: 'Loading...',
       });
     }
 
     return NextResponse.json({
-      shopName: data.shopName || 'Dokan',
+      shopName: data.shopName || 'Bd Pos Premium',
       shopLogo: data.shopLogo || '',
-      shopBio: data.shopBio || 'Smart Shop Management',
+      shopBio: data.shopBio || 'Premium Quality Shop Management',
       loadingText: data.loadingText || 'Loading...',
     });
   } catch (error) {
     console.error('Loading settings error:', error);
     return NextResponse.json({
-      shopName: 'Dokan',
+      shopName: 'Bd Pos Premium',
       shopLogo: '',
-      shopBio: 'Smart Shop Management',
+      shopBio: 'Premium Quality Shop Management',
       loadingText: 'Loading...',
     });
   }
